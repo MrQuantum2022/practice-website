@@ -9,7 +9,7 @@ export default function Header() {
         <div className=' max-w-[1100px]  px-2 items-center mx-auto flex justify-between 
         '>
             <div className=' text-3xl font-bold flex flex-col scale-90'>
-                QuantumTech
+            <span className='flex'>Quantum<span className='text-white'>Tech</span></span>
                 <p className=' font-thin text-white text-sm mx-auto'>-for the future-</p>
             </div>
             {

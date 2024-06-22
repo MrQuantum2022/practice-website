@@ -2,8 +2,7 @@ import React from "react";
 import { GoMilestone } from "react-icons/go";
 import { IoLogOutOutline } from "react-icons/io5";
 import { GoDesktopDownload } from "react-icons/go";
-export default function Popcard({ showpop, head, content, setshow,pgref }) {
-  console.log(showpop);
+export default function Popcard({ showpop, head, content, setshow }) {
   return (
     <div
       className={` bg-black flex items-center w-3/4 md:w-1/2 h-screen z-50 text-white fixed duration-300 top-0 ${
@@ -24,7 +23,7 @@ export default function Popcard({ showpop, head, content, setshow,pgref }) {
           className="duration-300 hover:text-white hover:bg-black border-2 flex items-center bg-white rounded-xl font-semibold text-black px-3 py-2 text-xl" 
         >
           <button className="pr-2 ">visit </button>
-          <GoDesktopDownload />
+          <GoMilestone/>
         </a>
         <div className="flex items-center border-0 duration-100 hover:border-b-2 hover:border-t-2 px-2 py-1 text-2xl " onClick={() => setshow(false)}>
           <button className=" pr-3" >
