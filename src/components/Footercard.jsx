@@ -6,7 +6,7 @@ import { FaGithub } from "react-icons/fa";
 import { AiFillQuestionCircle } from "react-icons/ai";
 import { LuDot } from "react-icons/lu";
 
-export default function () {
+export default function Footercard () {
   return (
     <div>
       <div className='flex md:absolute border items-center md:text-xl md:mt-2 p-4 text-2xl bg-slate-200  text-slate-700 md:p-2 justify-center  '>Follow Us <LuDot /> Contribute </div>

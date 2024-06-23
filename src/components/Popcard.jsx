@@ -1,7 +1,7 @@
 import React from "react";
 import { GoMilestone } from "react-icons/go";
 import { IoLogOutOutline } from "react-icons/io5";
-import { GoDesktopDownload } from "react-icons/go";
+
 export default function Popcard({ showpop, head, content, setshow }) {
   return (
     <div
