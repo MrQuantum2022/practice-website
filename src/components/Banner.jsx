@@ -6,7 +6,7 @@ export default function Banner() {
   
   return (
     <div className=" h-72">
-      <div className=" flex  relative justify-center z-0 font-bold text-md md:text-2xl mt-20  text-green-800">
+      <div className=" flex relative justify-center z-0 font-bold text-md md:text-2xl mt-20  text-green-800">
         Precision, Power, Quantum
       </div>
       <h1
@@ -35,16 +35,16 @@ export default function Banner() {
             Learn
         </button>
       </div>
-      <div className="absolute md:right-10 right-0 top-16 z-10 ">
+      <div className="absolute md:right-10  right-0 top-16 z-10 ">
         <img
           className=" h-96  md:w-44  w-24 object-cover md:object-center object-left  "
           src="https://imgs.search.brave.com/6i8-ERXLHTT9c7xv32XBllivDp_7FFCDC6G0m23nffk/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93d3cu/cG5nbWFydC5jb20v/ZmlsZXMvMjEvUXVh/bnR1bS1Db21wdXRp/bmctUE5HLVBob3Rv/cy5wbmc"
           alt=""
         />
       </div>
-      <div className="absolute md:left-0 -left-24 md:top-32 top-60 z-10 h-96  w-96  lg:scale-75 scale-50 ">
+      <div className="absolute md:left-0 -left-24 md:top-32 top-60 z-10 h-96  w-96  lg:scale-75 md:scale-50  ">
         <img
-          className="  h-96 w-96 object-cover object-top"
+          className="  h-72 w-72 md:h-96 md:w-96 object-cover object-top"
           src="https://c8.alamy.com/comp/2M77W1B/quantum-computer-on-white-background-2M77W1B.jpg"
           alt=""
         />
